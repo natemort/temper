@@ -1,0 +1,17 @@
+[package]
+name = "temper_client"
+version = "0.1.0"
+authors = ["Nate Mortensen <nate.richard.mortensen@gmail.com>"]
+
+[dependencies]
+dht22_pi = "0.1.0"
+serde_json = "1.0.13"
+serde_yaml = "0.7"
+serde_derive = "1.0.37"
+serde = "1.0.37"
+reqwest = "0.8.5"
+temper_common = {path = '../../lib/common'}
+
+
+
+

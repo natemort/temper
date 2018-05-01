@@ -1,0 +1,16 @@
+[package]
+name = "temper_server"
+version = "0.1.0"
+authors = ["Nate Mortensen <nate.richard.mortensen@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.8"
+rocket_codegen = "0.3.8"
+temper_common = {path = '../../lib/common'}
+influx_db_client = "^0.3.2"
+
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["json"]

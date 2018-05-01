@@ -1,0 +1,12 @@
+[package]
+name = "temper_common"
+version = "0.1.0"
+authors = ["Nate Mortensen <nate.richard.mortensen@gmail.com>"]
+
+[dependencies]
+serde = "1.0.37"
+serde_derive = "1.0.37"
+rmp = "0.8.7"
+rmp-serde = "0.13.7"
+
+
